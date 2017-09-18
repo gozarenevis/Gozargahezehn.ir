@@ -1,0 +1,209 @@
+*{
+	margin:0;
+	padding:0px;
+	border:0px;
+	}
+	
+
+	
+Header{
+	
+background:#ddd; 
+margin:auto;	
+		
+	}
+	
+	.access{
+	width:960px;
+	height:40px;
+	/* border:1px dotted black; */
+	margin:auto;
+		
+		
+	}
+	.menu{
+	width:960px;
+	height:40px;
+	/* border:1px dotted black; */
+	margin:auto;
+		
+		
+	}
+	
+	
+	
+Main{
+	
+background:#ddd; 
+margin:auto;
+width:960px;
+/* height:500px; */
+/* border:1px solid grey;	 */
+		
+	}
+	
+	.banner{
+	width:960px;
+	height:235px;
+	margin:auto;
+	/* border:1px solid black; */
+	box-sizing:border-box;
+	
+		
+		
+	}
+	
+		.bnr-lg{
+		width:560px;
+		height:160px;
+		background:magenta;
+		
+		margin:auto;
+		float:right;
+		
+			
+			
+		}
+		
+		.bnr-sml{
+		width:560px;
+		height:75px;
+		background:cyan;
+		
+		/* box-sizing:border-box; */
+		float:right;
+			
+			
+		}
+		
+		.bnr-mdm{
+		width:400px;
+		height:235px;
+		background:blue;
+		
+		float:left;
+		/* box-sizing:border-box;		 */
+		}
+	
+	.mn-cntnt{
+	width:960px;
+	margin:auto;
+	background:grey;
+	height:500px;
+		
+		
+	}
+	
+		.art-frm-out{
+		width:730px;
+		background:#ffcc99;
+		height:800px;
+		float:right;
+		
+		
+			
+		}
+			.art-frm-in{
+			width:730px;
+			background:#ffcc99;
+			height:760px;
+			float:right;
+			
+			overflow:hidden;
+							
+			}
+		
+		
+		
+				.art-title{
+				width:730px;
+				height:30px;
+				font-family:titr;
+				font-size:14px;
+				background:yellow;
+				box-sizing:border-box;
+				border:1px solid magenta;
+				text-align:right;
+				padding-right:5px;
+					
+					
+					
+				}
+				.art1{
+				width:730px;
+				height:130px;
+				font-family:titr;
+				font-size:14px;	
+				background:lightblue;
+				box-sizing:border;
+				/* border:1px solid black; */
+				
+				}
+			
+			.pagenav{
+			width:730px;
+			height:40px;
+			font-size:14px;
+			background:#0066cc;
+			float:right;
+				
+				
+			}
+			
+		.popular{
+		width:230px;
+		background:#cccccc;
+		height:800px;
+		float:left;
+			
+		}
+		
+			.popular-title{
+			width:230px;
+			height:30px;
+			font-family:titr;
+			font-size:14px;
+			background:yellow;
+			box-sizing:border-box;
+			border:1px solid magenta;
+			text-align:right;
+			padding-right:5px;	
+				
+			}
+			
+			.pop1{
+			width:230px;
+			height:300px;
+			font-family:titr;
+			font-size:14px;	
+			background:#eeeeee;
+			text-align:right;
+				
+				
+			}
+	
+	.suggested{
+	width:960px;
+	margin:auto;
+	background:grey;
+	height:300px;
+	float:right;
+		
+		
+	}
+	.keywords{
+	width:960px;
+	margin:auto;
+	background:cyan;
+	height:200px;
+	float:right;	
+		
+		
+	}
+	
+Footer{
+background:#ddd; 
+margin:auto;
+width:960px;	
+height:400px;
+/* float:rigth; */
