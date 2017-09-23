@@ -2,16 +2,12 @@
 	margin:0;
 	padding:0px;
 	border:0px;
+	box-sizing:border-box;
 	}
+	
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
 	
 
-	
-Header{
-	
-background:#ddd; 
-margin:auto;	
-		
-	}
 	
 	.access{
 	width:960px;
@@ -22,32 +18,62 @@ margin:auto;
 		
 	}
 	.menu{
-	width:960px;
+	background:#00aeef;	
 	height:40px;
-	/* border:1px dotted black; */
+	
+	}
+		
+	.menu-frm{
+	width:960px;
 	margin:auto;
-		
-		
+	color:white;
 	}
 	
 	
 	
+	
+	.menu li{
+		float:right;
+		padding:5px;
+		
+	}
+	
+	.menu ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+	}
+	.menu ul a{
+	text-decoration:none;
+	padding:5px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	font-family:zar;
+	color:white;
+    
+	}
+	
+	
+	
+	/* ------------------------------------------------------------------------------------------------------------------------ */
+	
 Main{
 	
-background:#ddd; 
+background:white; 
 margin:auto;
 width:960px;
-/* height:500px; */
-/* border:1px solid grey;	 */
-		
+	
 	}
 	
 	.banner{
 	width:960px;
 	height:235px;
 	margin:auto;
-	/* border:1px solid black; */
-	box-sizing:border-box;
+	
+	
 	
 		
 		
@@ -88,55 +114,53 @@ width:960px;
 	.mn-cntnt{
 	width:960px;
 	margin:auto;
-	background:grey;
-	height:500px;
+	
+	/* height:500px; */
 		
 		
 	}
 	
-		.art-frm-out{
-		width:730px;
-		background:#ffcc99;
-		height:800px;
-		float:right;
-		
-		
-			
-		}
-			.art-frm-in{
+			.art-frm-out{
 			width:730px;
-			background:#ffcc99;
-			height:760px;
 			float:right;
 			
+			
+			}
+			
+			.art-frm-in{
+			width:730px;
+			float:right;
+			height:760px;
+			border:1px solid red;
 			overflow:hidden;
+			
+			
 							
 			}
 		
 		
 		
-				.art-title{
+				.art-frm-title{
 				width:730px;
 				height:30px;
-				font-family:titr;
+				font-family:zar;
 				font-size:14px;
-				background:yellow;
-				box-sizing:border-box;
-				border:1px solid magenta;
 				text-align:right;
 				padding-right:5px;
+				
 					
 					
 					
 				}
-				.art1{
+				
+				
+				.art-prev{
 				width:730px;
 				height:130px;
-				font-family:titr;
+				font-family:zar;
 				font-size:14px;	
 				background:lightblue;
-				box-sizing:border;
-				/* border:1px solid black; */
+				border:1px solid black;
 				
 				}
 			
@@ -150,11 +174,11 @@ width:960px;
 				
 			}
 			
+					
+				/* popular------------------------------------------------- */
 		.popular{
 		width:230px;
-		background:#cccccc;
-		height:800px;
-		float:left;
+		float:right;
 			
 		}
 		
@@ -182,28 +206,114 @@ width:960px;
 				
 			}
 	
-	.suggested{
-	width:960px;
-	margin:auto;
-	background:grey;
-	height:300px;
-	float:right;
+			
+			/* article------------------------------ */
+			.article-title{
+			width:730px;
+			height:30px;
+			font-family:zar;
+			font-size:14px;
+			
+			text-align:right;
+			padding-right:5px;
+			
+				
+			}
+			
+			.art-writer{
+			width:730px;
+			height:30px;
+			font-family:zar;
+			font-size:12px;
+			
+			
+			text-align:right;
+			padding-right:5px;
+			}
+			
+			article{
+			width:730px;
+			text-align:right;
+			font-family:zar;
+			font-size:16px;	
+			
+			padding:10px;
+			line-height:1.5 em;
+			
+			}
+			
+			.related{
+			width:730px;
+			text-align:right;
+			background:grey;
+			clear:both;
+			
+			
+			}
+			
+			.opinion{
+			width:730px;
+			float:right;
+			background:grey;
+			text-align:right;
+			clear:both;
+			
+			}
+			.comment{
+			width:730px;
+			text-align:right;
+			float:right;
+			background:grey;
+			clear:both;
+			
+			
+			}
+			.clrfx{
+				clear:both;
+			}
+			
+			.suggested{
+			width:960px;
+			text-align:right;
+			margin:auto;
+			background:grey;
+			
+			}
+			
+			.keywords{
+			width:960px;
+			text-align:right;
+			margin:auto;
+			background:grey;	
+			}
+	
+	
 		
 		
-	}
-	.keywords{
-	width:960px;
-	margin:auto;
-	background:cyan;
-	height:200px;
-	float:right;	
+	
+				
+				
 		
 		
-	}
+		
+	
+	
+	
+		
+		
+		
+	
 	
 Footer{
-background:#ddd; 
+background:black; 
 margin:auto;
-width:960px;	
-height:400px;
-/* float:rigth; */
+text-align:center;
+height:200px;
+color:white;
+clear:both;
+
+
+	
+	
+}
+	
